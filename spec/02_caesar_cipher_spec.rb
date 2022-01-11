@@ -1,5 +1,6 @@
 require_relative '../lib/02_caesar_cipher.rb'
 
+
 describe "letter_shift method" do
   it "should shift source letter into an other letter based on shift number" do
     expect(letter_shift("h",2)).to eq("j")
